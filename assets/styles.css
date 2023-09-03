@@ -20,8 +20,9 @@ body {
   background: linear-gradient(0.25turn, #FF0000, #ebf8e1, #0000FF);
 }
 
-p {
+#ripple {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #img-div {
@@ -56,6 +57,13 @@ li {
 ul { 
   max-width: 550px;
   margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+p {
+  max-width: 550px;
+  margin: 50px auto 10px auto;
   text-align: left;
   line-height: 1.6;
 }
