@@ -10,18 +10,28 @@ body {
   margin: 30px 8px;
   padding: 15px;
   border-radius: 5px;
-  background: #eee;
+  background: linear-gradient(0.25turn, #FF0000, #ebf8e1, #0000FF);
 }
 
 p {
   text-align: center;
 }
 
+#img-div {
+  padding: 10px;
+  margin: 0 auto;
+}
+
 img {
   display: block;
   max-width: 100%;
   border-radius: 2rem;
+  margin: 0 auto;
 } 
+
+#img-caption {
+  padding-top: 10px;
+}
 
 li {
   margin: 16px 0;
@@ -33,3 +43,9 @@ ul {
   text-align: left;
   line-height: 1.6;
 }
+
+/* @media (prefers-reduced-motion: no-preference) {
+  html {
+        scroll-behavior: smooth;
+  }
+} */
